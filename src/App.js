@@ -2,12 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const version = '1.1.1.1';
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p className="title">Running Google Analytics (updated)</p>
       </header>
+      <p>version : {version}</p>
       <form>
         <input type="text" name="myInput" />
       </form>
