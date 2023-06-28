@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="App">
       <h1>React Animations List</h1>
-      <h2>using gtag</h1>
+      <h2>using gtag (example - G-XFQHT4TXGG)</h1>
       <List />
     </div>
   );
