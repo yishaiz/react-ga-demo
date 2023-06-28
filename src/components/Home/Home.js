@@ -15,9 +15,9 @@ const Home = () => {
       <h1>React Animations</h1>
       <Modal show={modalIsOpen} closed={() => closeModal()} />
       <Backdrop show={modalIsOpen} />
-      <button className="Button" onClick={() => openModal()}>
+      {/* <button className="Button" onClick={() => openModal()}>
         Open Modal
-      </button>
+      </button> */}
       <h3>Animating Lists</h3>
       <List />
     </div>
