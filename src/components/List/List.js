@@ -9,7 +9,7 @@ class List extends Component {
 
   addItemHandler = () => {
     console.log('add item');
-    // gtag('event', 'add_item_event', { send_to: 'GTM-K4FB5ST' });
+    window.gtag('event', 'add_item_event', { send_to: 'GTM-K4FB5ST' });
     this.setState((prevState) => {
       return {
         items: prevState.items.concat(prevState.items.length + 1),
