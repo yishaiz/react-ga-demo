@@ -12,13 +12,13 @@ const Home = () => {
   console.log('render');
   return (
     <div className="App">
-      <h1>React Animations</h1>
+      <h1>React Animations List</h1>
       {/* <Modal show={modalIsOpen} closed={() => closeModal()} /> */}
       {/* <Backdrop show={modalIsOpen} /> */}
       {/* <button className="Button" onClick={() => openModal()}>
         Open Modal
       </button> */}
-      <h3>Animating Lists</h3>
+      {/* <h3>Animating Lists</h3> */}
       <List />
     </div>
   );
